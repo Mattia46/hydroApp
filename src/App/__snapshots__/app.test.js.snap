@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation: Should render the homePage with NavBar 1`] = `
+<div>
+  <div
+    class="main"
+  >
+    <div
+      class="backHeader"
+    >
+      <div
+        class="header"
+      >
+        <div
+          class="headerBack"
+        >
+          <img
+            height="24"
+            src="../assets/img/keyboard_backspace-24px.svg"
+          />
+        </div>
+        <div
+          class="logoHeader"
+        >
+          <img
+            height="24"
+            src="../assets/img/vinoted_logo_white.svg"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="containerBody"
+    >
+      <div
+        data-testid="Home"
+        style="height: 100%; overflow: scroll;"
+      >
+        <div
+          class="c_homepage__header"
+        >
+          <div
+            class="c_homepage__header_logo"
+          >
+            <img
+              height="160"
+              src="../assets/img/vinoted_logo_login.svg"
+            />
+          </div>
+        </div>
+        <div
+          class="c_homepage__body"
+        >
+          <div>
+            Vinoted
+          </div>
+          <div>
+            Welcome to the first digital solution for professional wine taster
+            <br />
+             
+            <br />
+            <strong>
+              Connected to your wine suppliers 
+            </strong>
+            <br />
+            Meaning all the wine information are available at the tip of your fingers when attending any kind of professional wine tasting
+            <br />
+            <br />
+            <strong>
+              Digital tasting tool 
+            </strong>
+            <br />
+            Developed to help you create precise and exhaustive tasting notes in a fast and efficient process
+            <br />
+            <br />
+            <strong>
+              Easy access 
+            </strong>
+            <br />
+            Your tasting notes are stored in a cloud, always available on your mobile as well as computer and tablet, with filtering and search.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c_bottomnav"
+      data-testid="NavBar"
+    >
+      <a
+        href="/homePage"
+      >
+        <div
+          class="containerIconMenu"
+          data-testid="homePageLinkId"
+        >
+          <img
+            height="20"
+            src="../assets/img/icon-favourites.svg"
+          />
+          <div
+            class="iconTitle"
+          >
+            Home
+          </div>
+        </div>
+      </a>
+      <a
+        href="/tastingCalendar"
+      >
+        <div
+          class="containerIconMenu"
+          data-testid="tastingCalendarLinkId"
+        >
+          <img
+            height="20"
+            src="../assets/img/icon-events.svg"
+          />
+          <div
+            class="iconTitle"
+          >
+            Tasting Calendar
+          </div>
+        </div>
+      </a>
+      <a
+        href="/favourites"
+      >
+        <div
+          class="containerIconMenu"
+          data-testid="favouritesLinkId"
+        >
+          <img
+            height="20"
+            src="../assets/img/icon-favourites.svg"
+          />
+          <div
+            class="iconTitle"
+          >
+            Favourites
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
