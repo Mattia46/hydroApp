@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"hydroappec38ebab": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}

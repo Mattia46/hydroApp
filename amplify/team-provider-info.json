@@ -1,0 +1,20 @@
+{
+    "local": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-hydro-app-local-183834-authRole",
+            "UnauthRoleArn": "arn:aws:iam::673236677396:role/amplify-hydro-app-local-183834-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::673236677396:role/amplify-hydro-app-local-183834-authRole",
+            "Region": "eu-west-2",
+            "DeploymentBucketName": "amplify-hydro-app-local-183834-deployment",
+            "UnauthRoleName": "amplify-hydro-app-local-183834-unauthRole",
+            "StackName": "amplify-hydro-app-local-183834",
+            "StackId": "arn:aws:cloudformation:eu-west-2:673236677396:stack/amplify-hydro-app-local-183834/4aca9300-72ad-11ea-9701-0617023ccf6e",
+            "AmplifyAppId": "d2pej8e9uz8uwx"
+        },
+        "categories": {
+            "auth": {
+                "hydroappec38ebab": {}
+            }
+        }
+    }
+}

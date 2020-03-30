@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { withAuthenticator } from 'aws-amplify-react';
 import {
   BrowserRouter,
 } from 'react-router-dom';
@@ -6,7 +7,6 @@ import { createBrowserHistory } from "history";
 
 import {
   Routes,
-  //NavigationBar,
 } from '../Navigation/Navigation';
 import { Header } from '../Navigation/Header/Header';
 import style from '../Navigation/navigation.css';
@@ -36,5 +36,5 @@ const App = () => {
   );
 };
 
-export default App;
-
+export default withAuthenticator(App);
+//export default withAuthenticator(App, { includeGreetings: true });
